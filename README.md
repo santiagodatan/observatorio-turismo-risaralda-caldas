@@ -1,19 +1,20 @@
-# Observatorio de Turismo de Proximidad — primera versión
+# Observatorio de Turismo de Proximidad — versión 2
 
-Sitio estático en HTML, JavaScript y Apache ECharts, alimentado por `datos.json`.
+Sitio estático basado en Apache ECharts y mapas Leaflet/OpenStreetMap. Incluye cuatro páginas con contenidos diferenciados y filtros por año y temporada.
 
 ## Publicar en GitHub Pages
-1. Crear un repositorio público de GitHub.
-2. Subir `index.html` y `datos.json` a la raíz del repositorio.
-3. Ir a **Settings → Pages → Build and deployment** y elegir **Deploy from a branch**, rama `main`, carpeta `/(root)`.
-4. Abrir el enlace publicado. La biblioteca ECharts se carga desde un CDN, por lo que requiere conexión a Internet.
 
-## Ver localmente
-No abrir `index.html` con doble clic, porque los navegadores pueden bloquear `fetch` sobre `file://`. En la carpeta ejecutar `python -m http.server 8000` y abrir `http://localhost:8000`.
+1. Abre el repositorio de GitHub que ya creaste.
+2. Sube **index.html** y **datos.json** a la raíz del repositorio (reemplaza los archivos anteriores).
+3. Confirma los cambios con **Commit changes**.
+4. Espera unos minutos y actualiza la URL de GitHub Pages.
 
-## Advertencias metodológicas
-- El archivo contiene registros analíticos y respuestas categóricas, no nombres, teléfonos ni correos. Antes de publicar, revisar categorías poco frecuentes y cualquier riesgo de reidentificación.
-- Noches, personas por grupo y presupuestos excluyen datos faltantes o no numéricos; las cantidades válidas se indican en las tarjetas.
-- La suma de presupuestos es exclusivamente muestral, no derrama económica.
-- Las respuestas de municipios y alojamientos pueden tener categorías con ortografías distintas; requieren homologación.
-- La versión inicial muestra distribuciones y comparaciones de encuestas; no infiere variaciones en flujos totales de visitantes.
+No necesitas modificar la configuración de Pages si ya está habilitada.
+
+## Notas metodológicas
+
+- 3.254 encuestas de Risaralda y Caldas; no equivalen a flujos turísticos poblacionales.
+- La suma de presupuestos es muestral y no equivale a derrama económica.
+- El mapa muestra marcadores aproximados de cabeceras municipales, no polígonos administrativos.
+- Los mapas necesitan conexión a Internet para cargar OpenStreetMap; los gráficos necesitan conexión para Apache ECharts.
+- Se recomienda revisión editorial y validación de homologaciones antes de una publicación institucional definitiva.
