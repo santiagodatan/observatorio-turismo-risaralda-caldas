@@ -1,1 +1,1 @@
-Observatorio V3. Abrir index.html directamente en navegador con conexión a internet. Datos integrados en HTML, sin datos.json. Para GitHub Pages subir únicamente index.html. Modo oscuro con botón superior. No publicar sin revisión metodológica de variables y presupuesto.
+OBSERVATORIO V4 — Subir únicamente index.html a la raíz de GitHub Pages. Datos integrados. Identificación V4 visible. Tarjetas y filtros independientes de la carga de bibliotecas externas. Los mapas y gráficos requieren conexión a internet.
