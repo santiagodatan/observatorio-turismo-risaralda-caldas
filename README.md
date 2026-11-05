@@ -1,1 +1,1 @@
-OBSERVATORIO V4 — Subir únicamente index.html a la raíz de GitHub Pages. Datos integrados. Identificación V4 visible. Tarjetas y filtros independientes de la carga de bibliotecas externas. Los mapas y gráficos requieren conexión a internet.
+Observatorio V5. Corrección del error de JavaScript: el nombre top colisionaba con window.top en navegadores. Los datos están integrados en index.html. Subir index.html a la raíz del repositorio GitHub Pages. Se requiere conexión para cargar ECharts y Leaflet.
